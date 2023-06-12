@@ -1,0 +1,109 @@
+
+/* righteous-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/static/fonts/righteous-v14-latin/righteous-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../src/static/fonts/righteous-v14-latin/righteous-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+}
+
+.App {
+  text-align: center;
+}
+body{
+  background-color: #000000;
+  color: aliceblue;
+  text-shadow: 1px 1px 14px #575454;
+  font-family: 'Righteous';
+
+  background: linear-gradient(115deg, #000000 0%, #00C508 55%, #000000 100%), linear-gradient(115deg, #0057FF 0%, #020077 100%), conic-gradient(from 110deg at -5% 35%, #000000 0deg, #FAFF00 360deg), conic-gradient(from 220deg at 30% 30%, #FF0000 0deg, #0000FF 220deg, #240060 360deg), conic-gradient(from 235deg at 60% 35%, #0089D7 0deg, #0000FF 180deg, #240060 360deg);
+background-blend-mode: soft-light, soft-light, overlay, screen, normal;
+}
+.navbar2{
+  border-radius: 4px;
+box-shadow:  14px 14px 63px #616161,
+            -14px -14px 63px #c1c1c1;
+}
+.txt{
+  color: white;
+  size: 40px;
+  font-family:'Righteous';
+  text-shadow: 1px 1px 14px #575454;
+
+}
+.txt1{
+  color: white;
+  text-shadow: 1px 1px 14px #575454;
+  font-size: 90px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.txt1:hover{
+  color: #ffffff;
+  text-shadow: 1px 1px 14px #adabab;
+
+
+}
+.txt2{
+  background: #ffffff03;
+  color: white;
+  text-shadow: 1px 1px 14px #575454;
+  font-family: serif;
+}
+.prj{
+  background: #ffffff03;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.bio{
+  height: 500px;
+  margin-bottom: 200px;
+}
+.img2{
+  height: 500px;
+  width: auto;
+  margin-left: 100px;
+}
+.edu:hover{
+  box-shadow:  3px 3px 10px #e3e0e0,
+              -3px -3px 10px #e3e0e0;
+}
+.project{
+  box-shadow:  3px 3px 10px #b0a5a5,
+              -3px -3px 10px #b0a5a5;
+}
+.project:hover{
+
+  box-shadow:  3px 3px 10px #ffffff,
+  -3px -3px 10px #ffffff;
+}
+ion-icon {
+  font-size: 30px;
+  box-shadow:  3px 3px 10px #b0a5a5,
+  -3px -3px 10px #b0a5a5;
+  margin: 2px;
+}
